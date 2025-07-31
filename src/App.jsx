@@ -1,9 +1,9 @@
-import React from 'react';
+import NumberGuessGame from "./components/NumberGuessGame";
 
 const App = () => {
   return (
-    <div>
-      App
+    <div className="bg-yellow-100 min-h-screen flex justify-center items-center">
+      <NumberGuessGame />
     </div>
   );
 };
